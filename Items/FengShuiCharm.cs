@@ -2,9 +2,9 @@ using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace terraria_feng_shui_enneagram_mod.Items {
-	public class FengShuiCharm : ModItem {
+	public class FengShuiEnneagramCharm : ModItem {
 		public override void SetStaticDefaults() {
-			Tooltip.SetDefault("Adds 20 bonuses based around Feng Shui.");
+			Tooltip.SetDefault("Adds 20 bonuses based around Feng Shui & Enneagram.");
 		}
 		public override void SetDefaults() {
 			item.width = 20;
