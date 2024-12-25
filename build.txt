@@ -1,3 +1,0 @@
-displayName = FengShui
-author = stacccblox
-version = 0.1
