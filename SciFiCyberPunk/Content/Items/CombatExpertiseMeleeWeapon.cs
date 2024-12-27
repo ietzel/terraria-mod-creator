@@ -54,6 +54,6 @@ namespace SciFiCyberPunk.Content.Items {
 			if(rIntFiveA > rIntFiveB) {
 				target.AddBuff(BuffID.BrokenArmor, 5*60);
 			}
-        }
+                }
 	}
 }
