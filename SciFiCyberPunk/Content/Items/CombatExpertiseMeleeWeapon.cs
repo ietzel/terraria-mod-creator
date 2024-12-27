@@ -29,29 +29,29 @@ namespace SciFiCyberPunk.Content.Items {
 		}
 		public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit) {
 			Random r = new Random();
-			int rIntOneA = r.Next(1, 21);
-			int rIntOneB = r.Next(1, 21);
-			if(rIntOneA + 5 >= rIntOneB) {
+			int rIntOneA = r.Next(1, 7);
+			int rIntOneB = r.Next(1, 7);
+			if(rIntOneA > rIntOneB) {
 				target.AddBuff(BuffID.Bleeding, 5*60);
 			}
-			int rIntTwoA = r.Next(1, 21);
-			int rIntTwoB = r.Next(1, 21);
-			if(rIntTwoA + 5 >= rIntTwoB) {
+			int rIntTwoA = r.Next(1, 7);
+			int rIntTwoB = r.Next(1, 7);
+			if(rIntTwoA > rIntTwoB) {
 				target.AddBuff(BuffID.Poisoned, 5*60);
 			}
-			int rIntThreeA = r.Next(1, 21);
-			int rIntThreeB = r.Next(1, 21);
-			if(rIntThreeA + 5 >= rIntThreeB) {
+			int rIntThreeA = r.Next(1, 7);
+			int rIntThreeB = r.Next(1, 7);
+			if(rIntThreeA > rIntThreeB) {
 				target.AddBuff(BuffID.OnFire, 5*60);
 			}
-			int rIntFourA = r.Next(1, 21);
-			int rIntFourB = r.Next(1, 21);
-			if(rIntFourA + 5 >= rIntFourB) {
+			int rIntFourA = r.Next(1, 7);
+			int rIntFourB = r.Next(1, 7);
+			if(rIntFourA > rIntFourB) {
 				target.AddBuff(BuffID.Slow, 5*60);
 			}
-			int rIntFiveA = r.Next(1, 21);
-			int rIntFiveB = r.Next(1, 21);
-			if(rIntFiveA + 5 >= rIntFiveB) {
+			int rIntFiveA = r.Next(1, 7);
+			int rIntFiveB = r.Next(1, 7);
+			if(rIntFiveA > rIntFiveB) {
 				target.AddBuff(BuffID.BrokenArmor, 5*60);
 			}
         }
